@@ -37,7 +37,9 @@ Já imaginou?
 ## 💿 Instalação
 
 ```bash
-    apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf WhaticketPlus && sudo git clone https://github.com/DEV7Kadu/WhaticketPlus && cd WhaticketPlus && sudo chmod +x ./whaticketplus && ./whaticketplus
+sudo apt update && sudo apt upgrade -y && sudo apt install -y sudo git && \
+sudo rm -rf WhaticketPlus && git clone https://github.com/DEV7Kadu/WhaticketPlus && \
+cd WhaticketPlus && sudo chmod +x whaticketplus && sudo ./whaticketplus
 ```
 
 <br /><br />
